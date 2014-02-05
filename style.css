@@ -80,8 +80,6 @@
 }
 /********** Basic styles **********/
 body {
-  background: #ffffff url(img/background1.jpg) no-repeat;
-  background-size: 100%;
   color: #333333;
   font-family: 'Unica One', Verdana, Helvetica, sans-serif;
   margin: 0;
@@ -89,8 +87,25 @@ body {
   /* more than header height */
 
 }
-body.section-front-page {
-  background-image: none;
+body.section-sobre-nos {
+  background: #ffffff url(img/background1.jpg) no-repeat;
+  background-size: 100%;
+}
+body.section-servicos {
+  background: #ffffff url(img/background2.jpg) no-repeat;
+  background-size: 100%;
+}
+body.section-arquitetura-sustentavel {
+  background: #ffffff url(img/background3.jpg) no-repeat;
+  background-size: 100%;
+}
+body.section-portifolio {
+  background: #ffffff url(img/background4.jpg) no-repeat;
+  background-size: 100%;
+}
+body.section-contato {
+  background: #ffffff url(img/background5.jpg) no-repeat;
+  background-size: 100%;
 }
 a:link,
 a:visited,
@@ -252,6 +267,12 @@ nav li:nth-child(5) {
 .section-front-page #portal-breadcrumbs {
   display: none;
 }
+.subsection-capa .listingBar {
+  display: none;
+}
+div.listingBar a:hover {
+  color: #a6ce39;
+}
 /* text styles */
 p {
   line-height: 1.4em;
@@ -276,6 +297,8 @@ h1 {
 }
 h2 {
   color: #1a3c45;
+  line-height: 1em;
+  margin-bottom: 0.5em;
 }
 #content .documentDescription,
 #content #description {
@@ -284,6 +307,10 @@ h2 {
   margin-bottom: 1em;
 }
 /********** Tiles **********/
+.tile img {
+  max-width: 100%;
+  height: auto;
+}
 /*********** Portlets ***********/
 /* general styles */
 .portletHeader,
@@ -344,6 +371,16 @@ aside a {
 .navTreeLevel6 a {
   padding-left: 5em;
 }
+/* forms */
+.field input[type="text"][size] {
+  height: 2em;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+#content textarea {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
 /********** Footer **********/
 footer {
   border-top: #d9d9d9 1px solid;
@@ -355,11 +392,22 @@ footer {
 footer p {
   margin-bottom: 2em;
 }
+ul.redes-sociais {
+  margin-top: 1em;
+}
+ul.redes-sociais li {
+  float: right;
+  margin-left: 1em;
+}
+ul.redes-sociais a {
+  color: #ccc;
+}
 #footer-info {
   padding-top: 10px;
 }
 #portal-siteactions {
   text-align: left;
+  padding-bottom: 0;
 }
 /**** RESPONSIVE ***/
 #btnav i {
