@@ -36,7 +36,7 @@
         <drop css:content="#portal-breadcrumbs" />
 
         <rules css:if-not-content=".section-front-page">
-            <drop css:theme=".cycle-slideshow" />
+            <drop css:theme="#slideshow-capa" />
         </rules>
 
         <!--Content -->
