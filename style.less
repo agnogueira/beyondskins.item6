@@ -38,7 +38,6 @@
 @main-link: darken(@main-color, 10%);
 @secondary-link: darken(@main-color, 20%);
 
-
 /******************************************
 
   You dont need to edit the lines below
@@ -50,7 +49,12 @@
 /* Very very simple, semantic and human friendly columns */
 
 /* Column size */
-#main         {.wrapper-size;}
+#main {
+	.wrapper-size
+}
+.portaltype-news-item.section-portifolio #main {
+    max-width: 778px;
+}
 #main-content {width: auto;}
 #column-one   {width:  @coluna1;}
 #column-two   {width:  @coluna2;}
@@ -239,7 +243,7 @@ nav li a:link {
 	padding: 4em 3em 1em 1em;
 }
 nav li#portaltab-arquitetura-sustentavel a {
-	padding-top: 2.7em;
+	padding-top: 2.75em;
 }
 nav li a:link,
 nav li a:visited {
@@ -268,17 +272,21 @@ nav li:nth-child(5) {
 /* slide show */
 .cycle-slideshow {
 	width: 768px;
-	margin: 0 auto;
+	margin: 20px auto;
 	border: 1px solid #ccc;
 }
 .cycle-slideshow img {
 	max-width: 100%;
 	height: auto;
+	max-height: 556px;
 }
 #slideshow-capa {
 	margin-top: -150px;
 	width: 100%;
 	border: none;
+}
+#slideshow-capa img {
+  max-height: 1500px;
 }
 @media (min-height: 800px) {
 	#slideshow-capa {
@@ -294,7 +302,7 @@ nav li:nth-child(5) {
     width: 100%; 
     z-index: 500; 
     position: absolute; 
-    bottom: 50px; 
+    bottom: 10px; 
     overflow: hidden;
 }
 .cycle-pager span { 
@@ -357,7 +365,7 @@ h2 {
 #content .documentDescription, #content #description {
     color: lighten(@main-text, 10%); 
     font-weight: normal;
-    margin-bottom: 1em;
+    margin: 0.5em 0 2em 0;
 }
 
 /********** Tiles **********/
@@ -508,5 +516,40 @@ header > div {width:93%;}
  
 /* Landscape phones and down */
 @media (max-width: 480px) {
+	#logo a img {
+		width: 1em;
+	}
+	div.cell {
+		position: initial;
+		float: none !important;
+		left: 100%;
+		margin-left: 0 !important;
+		width: 100% !important;
+	}
+	#slideshow-capa {
+		margin-top: -150px;
+	}
+	#wrapper {
+		margin-top: -50px;
+	}
+	#main {
+		margin-top: 0;
+		padding: 0;
 
+	}
+	footer {
+		padding-left: 10%;
+		padding-right: 10%;
+	}
+	ul.redes-sociais li {
+		float: none;
+		margin-left: 3em;
+	}
+	#btnav {
+		color: #666 !important;
+	}
+	img {
+		max-width: 100%;
+		height: auto;
+	}
 }

@@ -42,6 +42,7 @@
         <!--Content -->
         <merge attributes="class" css:content="body" css:theme="body" />
         <copy attributes="id dir" css:content="body" css:theme="body" />
+        <drop css:content=".section-portifolio .newsImageContainer" />
         
         <!-- Columns -->
         <replace css:content-children="#portal-column-content" css:theme-children="#main-content" />
@@ -56,6 +57,7 @@
         
         <!--Footer -->
         <before css:content="#portal-siteactions" css:theme="p#footer-info" />
+        <after css:content="#portal-footer-wrapper script" css:theme="#wrapper" />
 
      
     </rules>
