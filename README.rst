@@ -9,6 +9,8 @@ Beyondskins item6 Theme is an installable Plone Theme developed by
 `Simples Consultoria`_ using the **theming** and **packaging** 
 features available in `plone.app.theming`_.
 
+.. image:: https://github.com/agnogueira/beyondskins.item6/raw/master/docs/logo.png
+
 
 Requirements
 ============
