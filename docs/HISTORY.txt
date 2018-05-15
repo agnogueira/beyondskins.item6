@@ -1,0 +1,19 @@
+Changelog
+=========
+
+0.1dev (unreleased)
+-------------------
+
+- Ajustes finais do tema [Andre Nogueira]
+
+- Alterações no tema [Andre Nogueira]
+
+- Atualização de estilos [Andre Nogueira]
+
+- Alterações no tema [Andre Nogueira]
+
+- Atualização de estilos [Andre Nogueira]
+
+- upload inicial [Andre Nogueira]
+
+- Initial release
