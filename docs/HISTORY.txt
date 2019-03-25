@@ -1,0 +1,37 @@
+Changelog
+=========
+
+0.1dev (unreleased)
+-------------------
+
+- Updated Diazo manifest file [macagua]
+
+- Updated the description for setuptools metadata classifier [macagua]
+
+- Added the license for setuptools metadata classifier [macagua]
+
+- Added a simple Diazo theme package (Zip file) [macagua]
+
+- Added HTML5 validation for HTML file [macagua]
+
+- Changed URL for the html5shiv library [macagua]
+
+- Added Plone theme package structure [macagua]
+
+- Updated manifest file and the preview file for diazo theme [macagua]
+
+- Fixed somes typo [macagua]
+
+- Ajustes finais do tema [Andre Nogueira]
+
+- Alterações no tema [Andre Nogueira]
+
+- Atualização de estilos [Andre Nogueira]
+
+- Alterações no tema [Andre Nogueira]
+
+- Atualização de estilos [Andre Nogueira]
+
+- upload inicial [Andre Nogueira]
+
+- Initial release
